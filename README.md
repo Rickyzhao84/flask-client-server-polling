@@ -1,6 +1,6 @@
-# Client-Server Polling
+# Video Translation Server
 
-This small project demonstrates a client-server interaction where the client polls the server for the status of a task. This README provides setup instructions, dependencies, and testing information.
+This small project demonstrates a client-server interaction where the client runs the server for the status of a task. This README provides setup instructions, dependencies, and testing information.
 
 ---
 
@@ -48,7 +48,7 @@ This small project demonstrates a client-server interaction where the client pol
 3. Run the client by executing:
    ```bash
    python heygen_client.py
-4. The client will begin polling the server and log the status updates.
+4. The client will begin running the server and log the status updates.
 
 ## Testing Instructions
 
@@ -61,7 +61,7 @@ This small project demonstrates a client-server interaction where the client pol
    python heygen_test.py
 4. The test will:
 Start a new server instance in the background.
-Use the client library to poll the server.
+Use the client library to running the server.
 Log the interaction and print the final status.
 
 ## Others
