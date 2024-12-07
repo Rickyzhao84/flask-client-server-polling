@@ -1,4 +1,4 @@
-# Client-Server Polling Example
+# Client-Server Polling
 
 This small project demonstrates a client-server interaction where the client polls the server for the status of a task. This README provides setup instructions, dependencies, and testing information.
 
@@ -34,20 +34,20 @@ This small project demonstrates a client-server interaction where the client pol
 ### 1. Running the Server
 
 1. Open a command-line terminal.
-2. Navigate to the directory containing the server code (`server.py`).
+2. Navigate to the directory containing the server code (`heygen_server.py`).
 3. Start the server by running:
    ```bash
-   python server.py
+   python heygen_server.py
 
 4. The server will start on http://127.0.0.1:5000 and listen for client requests.
 
 ### 2. Running the Client
 
 1. Open another command-line terminal (keep the server terminal running).
-2. Navigate to the directory containing the client code (client.py).
+2. Navigate to the directory containing the client code (heygen_client.py).
 3. Run the client by executing:
    ```bash
-   python client.py
+   python heygen_client.py
 4. The client will begin polling the server and log the status updates.
 
 ## Testing Instructions
@@ -55,10 +55,10 @@ This small project demonstrates a client-server interaction where the client pol
 ### Integration Test
 
 1. Open a third command-line terminal (ensure the server is running).
-2. Navigate to the directory containing the test code (test.py).
+2. Navigate to the directory containing the test code (heygen_test.py).
 3. Run the test by executing:
    ```bash
-   python test.py
+   python heygen_test.py
 4. The test will:
 Start a new server instance in the background.
 Use the client library to poll the server.
