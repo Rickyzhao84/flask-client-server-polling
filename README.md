@@ -70,6 +70,13 @@ Log the interaction and print the final status.
 
 One terminal is used for running the server, another for running the client, and a third for testing the integration.
 
+### Bells and Whistles
+
+1. Logging
+2. Error handling
+3. Delay increases each time until reaching max limit
+4. User configurable parameters in client initialization
+
 ### Example Output
     ```bash 
     127.0.0.1 - - [07/Dec/2024 16:35:05] "GET /status HTTP/1.1" 200 -
@@ -83,3 +90,5 @@ One terminal is used for running the server, another for running the client, and
    Server status: completed
    Final Status: completed
    Finished
+
+
