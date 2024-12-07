@@ -63,3 +63,23 @@ This small project demonstrates a client-server interaction where the client pol
 Start a new server instance in the background.
 Use the client library to poll the server.
 Log the interaction and print the final status.
+
+## Others
+
+### Why Multiple Terminals?
+
+One terminal is used for running the server, another for running the client, and a third for testing the integration.
+
+### Example Output
+    ```bash 
+    127.0.0.1 - - [07/Dec/2024 16:35:05] "GET /status HTTP/1.1" 200 -
+
+### Example Client Output
+
+   ```bash
+   Starting client...
+   Server status: pending
+   Server status: pending
+   Server status: completed
+   Final Status: completed
+   Finished
